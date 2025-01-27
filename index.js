@@ -44,3 +44,15 @@ document.querySelectorAll(".Games").forEach(element => {
 document.querySelector(".Gamesclose").addEventListener("click", () => {
     document.querySelector(".GamesModal").close()
 })
+
+// Responsive
+function resize() {
+    var width = innerWidth;
+
+    if (width >= 500) {
+        document.querySelector(".sidebar").setAttribute("aria-opened", false);
+    }
+}
+
+resize()
+window.addEventListener("resize", resize)
