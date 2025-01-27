@@ -23,6 +23,7 @@ a {
 }
 
 button {
+    font-family: Poppins;
     border: none;
     display: flex;
     align-items: center;
@@ -269,7 +270,7 @@ dialog::backdrop {
 }
 
 .Game {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .social-item,
@@ -400,8 +401,9 @@ main>img {
 
     .sidebarwrapper,
     .sidebarcontent,
+    .sidebarcontent ul,
     .sidebarcontent li,
-    .sidebarcontent button {
+    .sidebarcontent li button {
         width: 100%;
     }
 }
